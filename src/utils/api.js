@@ -2,3 +2,5 @@ export const IMAGE_BASE_URL = "https://fe-dev-matching-2021-03-serverlessdeploym
 export const API_URL = "https://zl3m4qq0l9.execute-api.ap-northeast-2.amazonaws.com/dev/";
 export const ROOT_URL = "https://zl3m4qq0l9.execute-api.ap-northeast-2.amazonaws.com/dev";
 
+export const URL = window.location.href ? window.location.href : "./"; 
+

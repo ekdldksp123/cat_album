@@ -1,4 +1,4 @@
-import { IMAGE_BASE_URL } from "./utils/api.js";
+import { IMAGE_BASE_URL, URL } from "./utils/api.js";
 import { addCache, checkChache, renderNodes } from "./utils/common.js";
 /**
  * @param {*뒤로가기 용 스텍} stack = { dirctory:[], nodes:[]}
@@ -72,7 +72,7 @@ export function Nodes(app, breadCrumb, modal, initialState) {
         this.renderPrevBtn();
         this.target.innerHTML += `${this.state.nodes.map((node, index) => {
             return `<div class="Node" data-path=${node.filePath ? node.filePath : '#'} data-id=${node.id}>
-                    <img src=${node.type === 'DIRECTORY' ? "../assets/directory.png" : "../assets/file.png"}>
+                    <img src=${node.type === 'DIRECTORY' ? `${URL}/assets/directory.png` : `${URL}/assets/file.png`}>
                 <div>${node.name}</div></div>`;
             }).join('')
         }`
