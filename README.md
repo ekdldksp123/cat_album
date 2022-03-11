@@ -12,6 +12,12 @@
 
 JavaScript, HTML5
 
+### 프로젝트 구성
+- src > main.js : index.html 에서 import 할 모듈 (컴포넌트 렌더링)
+- src > components.js : App, BreadCrumb, Nodes, Modal 함수형 컴포넌트 구현
+- src > utils > api.js : 구현에 필요한 API URL 모음
+- src > utils > common.js : 컴포넌트 전반에 공통적으로 쓰이는 모듈 (api 호출, caching, nodes 렌더링 등);
+
 ### 실행법
 
 패키지 설치

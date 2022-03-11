@@ -1,4 +1,4 @@
-import { IMAGE_BASE_URL, URL } from "./utils/api.js";
+import { IMAGE_BASE_URL } from "./utils/api.js";
 import { addCache, checkChache, renderNodes } from "./utils/common.js";
 /**
  * @param {*뒤로가기 용 스텍} stack = { dirctory:[], nodes:[]}
