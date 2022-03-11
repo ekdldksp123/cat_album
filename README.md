@@ -18,10 +18,11 @@ JavaScript, HTML5
 
 ```
 npm install
-```
 
+```
 실행 (port: 5000)
 
 ```
 npm start
+
 ```
